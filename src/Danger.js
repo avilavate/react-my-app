@@ -3,7 +3,7 @@ import './App.css';
 
 class Danger extends Component {
     render() {
-        return <button className="App-Danger">Danger</button>;
+        return <button className="App-Danger" >Danger</button>;
     }
 }
 

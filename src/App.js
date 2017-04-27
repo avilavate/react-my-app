@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Danger from './Danger.js';
+import Home from './home.js';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
           <h2>Welcome to My-App</h2>
         </div>
         <Danger />
+        <Home/>
       </div>
     );
   }
